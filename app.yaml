@@ -1,0 +1,13 @@
+application: newapp-1a913
+version: 2
+runtime: php55
+api_version: 2
+threadsafe: yes
+
+handlers:
+- url: /
+  static_files: moderna/index.html
+  upload: moderna/index.html
+
+- url: /
+  static_dir: moderna
